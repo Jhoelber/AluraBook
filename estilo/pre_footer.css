@@ -1,0 +1,86 @@
+.pre_footer {
+    background: var(--branco);
+    padding: .5em .5rem;
+}
+
+
+.pre_footer_descricao {
+    margin: 1em;
+
+}
+
+.pre_footer_titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-degrade);
+
+
+}
+
+.pre_footer_texto {
+    font-weight: 300;
+    color: var(--azul);
+    padding: 1em 0;
+}
+
+.pre_footer_pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    color: var(--azul);
+    padding: 1em 5em 1em 1em;
+    width: 100%;
+
+
+}
+
+.pre_footer_pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul);
+    background-image: url("../imagem/email.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+
+
+    .pre_footer_descricao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pre_footer_pesquisa {
+        width: 30%;
+        
+
+    }
+
+
+    .pre_footer_conteudo_descricao{
+            margin-right: 1em;
+            width: 30%;
+    }
+.pre_footer_titulo{
+font-size: 24px;
+
+}
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .pre_footer_descricao{
+        padding: 3em 18vw;
+
+    }
+
+
+    
+}
